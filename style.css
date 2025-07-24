@@ -68,7 +68,7 @@ header {
 .intro, .content, .kontakt {
     background-color: rgba(222, 200, 228, 0.568);
     background: linear-gradient(145deg, #ffffff, #a1a1a138);
-    border: solid 0.1rem rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
     margin: 2em auto;
     text-align: center;
     max-width: 40%;
@@ -121,6 +121,9 @@ label {
 }
 
 textarea {
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
     margin: 1rem 0 0 0;
     border: solid 1px white;
     outline: none;
@@ -153,4 +156,40 @@ footer:hover{
     scale: 1.2;
     font-weight: 600;
 
+}
+
+#floating-circle {
+  position: fixed;
+  top: 50%;           
+  left: 5%;         
+  transform: translateY(-50%);
+  width: 10rem; 
+  height: 10rem;
+  border-radius: 50%; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  border: 0.5px solid white; 
+  z-index: 9999;
+}
+
+#floating-circle-r {
+  position: fixed;
+  top: 50%;
+  right: 5%;           
+  transform: translateY(-50%);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border: 0.5px solid white;
+  z-index: 9999;
+}
+
+
+#floating-circle img, #floating-circle-r img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* cover the circle area */
+  display: block;         /* remove inline gap */
 }
