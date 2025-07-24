@@ -167,7 +167,10 @@ footer:hover{
     height: 10rem;
     border-radius: 50%; 
     overflow: hidden; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    box-shadow:
+        8px 8px 16px var(--neu-shadow-dark),
+        -8px -8px 16px var(--neu-shadow-light),
+        inset 2px 20px 10px rgba(0,0,0,0.1);
     border: 0.5px solid white; 
     z-index: 9999;
     animation: fadeInUp 0.8s ease forwards;
@@ -182,7 +185,10 @@ footer:hover{
     height: 10rem;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow:
+        8px 8px 16px var(--neu-shadow-dark),
+        -8px -8px 16px var(--neu-shadow-light),
+        inset 2px 20px 10px rgba(0,0,0,0.1);
     border: 0.5px solid white;
     z-index: 9999;
     animation: fadeInUp 1.2s ease forwards;
