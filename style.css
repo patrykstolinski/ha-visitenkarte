@@ -54,7 +54,7 @@ header {
     font-weight: 600;
     font-size: 1.8rem;
     user-select: none;
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 10rem;
     border: solid 0.1rem rgb(255, 255, 255);
     padding: 1.5em 2em;
@@ -71,7 +71,7 @@ header {
     border: solid 0.1rem rgb(255, 255, 255);
     margin: 2em auto;
     text-align: center;
-    max-width: 60%;
+    max-width: 40%;
     border-radius: 5rem;
     padding: 1.5em 2em;
     backdrop-filter: blur(2px);
@@ -80,6 +80,9 @@ header {
         -8px -8px 16px var(--neu-shadow-light),
         inset 2px 20px 10px rgba(0,0,0,0.1);
     animation: fadeInUp 0.8s ease forwards;
+}
+.kontakt {
+    max-width: 35%;
 }
 
 .buttonGroup {
@@ -111,6 +114,12 @@ input:hover {
              -13px -13px 100px #ffffff;
 }
 
+label {
+
+  display: block;
+  margin-bottom: 0.5em;
+}
+
 textarea {
     margin: 1rem 0 0 0;
     border: solid 1px white;
@@ -134,4 +143,14 @@ textarea:focus{
         inset 2px 8px 10px rgba(0, 0, 0, 0.15);
     background-color: #fefefe;
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+footer {
+    scale: 1;
+    transition: 400ms ease-in-out;
+}
+footer:hover{
+    scale: 1.2;
+    font-weight: 600;
+
 }
