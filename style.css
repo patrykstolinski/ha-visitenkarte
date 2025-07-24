@@ -159,31 +159,33 @@ footer:hover{
 }
 
 #floating-circle {
-  position: fixed;
-  top: 50%;           
-  left: 5%;         
-  transform: translateY(-50%);
-  width: 10rem; 
-  height: 10rem;
-  border-radius: 50%; 
-  overflow: hidden; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
-  border: 0.5px solid white; 
-  z-index: 9999;
+    position: fixed;
+    top: 40%;           
+    left: 5%;         
+    transform: translateY(-50%);
+    width: 10rem; 
+    height: 10rem;
+    border-radius: 50%; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    border: 0.5px solid white; 
+    z-index: 9999;
+    animation: fadeInUp 0.8s ease forwards;
 }
 
 #floating-circle-r {
-  position: fixed;
-  top: 50%;
-  right: 5%;           
-  transform: translateY(-50%);
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  border: 0.5px solid white;
-  z-index: 9999;
+    position: fixed;
+    top: 40%;
+    right: 5%;           
+    transform: translateY(-50%);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 0.5px solid white;
+    z-index: 9999;
+    animation: fadeInUp 1.2s ease forwards;
 }
 
 
